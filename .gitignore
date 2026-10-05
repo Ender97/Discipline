@@ -1,0 +1,40 @@
+# Secrets — don't commit this
+server/.env
+
+# Generated data 
+server/*.db
+server/*.db-shm
+server/*.db-wal
+server/uploads/
+server/backups/
+
+# Dependencies 
+server/node_modules/
+
+# pm2 logs if saved locally
+server/logs/
+
+# Gradle build artifacts
+.gradle/
+build/
+app/build/
+**/build/
+
+# Local machine config 
+local.properties
+
+# Signing keys 
+*.keystore
+**/*.keystore
+*.jks
+**/*.jks
+keystore.properties
+
+# IDE files
+.idea/
+**/*.iml
+*.DS_Store
+
+.DS_Store
+Thumbs.db
+*.log
